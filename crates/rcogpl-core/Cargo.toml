@@ -1,0 +1,10 @@
+[package]
+name = "rcogpl-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rcogpl-shared = { path = "../rcogpl-shared" }
+rayon = { workspace = true }
+thiserror = { workspace = true }
