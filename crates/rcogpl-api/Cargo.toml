@@ -1,0 +1,15 @@
+[package]
+name = "rcogpl-api"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rcogpl-shared = { path = "../rcogpl-shared" }
+rcogpl-core = { path = "../rcogpl-core" }
+rcogpl-universal = { path = "../rcogpl-universal" }
+axum = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
