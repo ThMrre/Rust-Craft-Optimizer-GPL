@@ -1,0 +1,13 @@
+[package]
+name = "rcogpl-gui"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rcogpl-shared = { path = "../rcogpl-shared" }
+rcogpl-core = { path = "../rcogpl-core" }
+rcogpl-universal = { path = "../rcogpl-universal" }
+eframe = { workspace = true }
+egui = { workspace = true }
+anyhow = { workspace = true }
