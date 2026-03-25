@@ -9,3 +9,4 @@ rcogpl-shared = { path = "../rcogpl-shared" }
 serde = { workspace = true }
 serde_json = { workspace = true }
 thiserror = { workspace = true }
+anyhow = "1.0.102"
