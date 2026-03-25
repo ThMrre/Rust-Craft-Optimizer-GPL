@@ -5,7 +5,7 @@ fn main() -> Result<(), eframe::Error> {
     eframe::run_native(
         "RCOGPL - Craft Optimizer",
         options,
-        Box::new(|_cc| Box::new(MyApp::default())),
+        Box::new(|_cc| Ok(Box::new(MyApp::default()))),
     )
 }
 
